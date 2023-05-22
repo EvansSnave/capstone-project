@@ -13,6 +13,10 @@ body {
   min-height: 100vh;
 }
 
+section {
+  width: 100%;
+}
+
 header {
   height: 9vh;
   min-width: 100vw;
@@ -36,12 +40,5 @@ li {
 
 .navigator-menu__burger {
   width: 5vw;
-}
-
-.main-section {
-  width: 100vw;
-}
-
-.main-section__titles > * {
-  width: 100vw;
+  max-width: 30px;
 }
