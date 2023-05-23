@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/lato");
 
 * {
   box-sizing: border-box;
@@ -9,13 +10,8 @@
 body {
   width: 100vw;
   min-width: 375px;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Lato', sans-serif;
 
-}
-
-html, body {
-  max-width: 100%;
-  overflow-x: hidden;
 }
 
 section {
@@ -63,6 +59,8 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: url(/images/backgroundMain.png) ;
+  background-position: bottom 92% right 46%;
 }
 
 .main-section__container {
@@ -77,14 +75,16 @@ li {
 }
 
 .main-section__main-title {
-  font-size: 2.3rem;
+  font-size: 2.2rem;
+  font-family: 'Cocogoose', sans-serif;
   line-height: 35px;
-  mix-blend-mode: multiply;
+  font-weight: 500;
 }
 
 .main-section__small-title {
-  font-weight: 8;
-  font-size: 1rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
 }
 
 .main-section__text {
@@ -103,7 +103,8 @@ li {
 
 .main-section__number-sells {
   font-size: 1.4rem;
-  font-weight: 800;
+  font-weight: 580;
+  font-family: 'Cocogoose', sans-serif;
   color: rgb(71, 71, 73);
   line-height: 25px;
   margin-bottom: 0.7vh;
@@ -116,11 +117,16 @@ li {
 }
 
 .options-section {
-  background: #272a31;
+  
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: url(/images/patternBackground.png);
+}
+
+.background {
+  background: #272a31;
 }
 
 .options-section__container {
@@ -148,7 +154,7 @@ li {
 .options-section__list-content {
   display: flex;
   align-items: center;
-  background: rgba(71, 71, 73, 0.452);
+  background: rgba(255,255,255,.1);
   margin: 2.5vw 0;
 }
 
@@ -158,16 +164,21 @@ li {
   justify-content: center;
   align-items: center;
   margin-left: 3vw;
+  margin-right: 5vw;
 }
 
 .options-section__action {
-  width: 20vw;
+  width: 22vw;
 }
 
 .options-section__description {
-  width: 47vw;
+  width: 40vw;
   font-size: .8rem;
   margin: 3vw;
+}
+
+.image {
+  width: 10vw;
 }
 
 .last-list {
@@ -208,7 +219,7 @@ li {
 }
 
 .footer-section__first-part {
-  background: rgb(71, 71, 73);
+  background: #333;
 }
 
 .footer-section__list-container {
@@ -248,9 +259,34 @@ li {
 
 .footer-section_text-container {
   margin: 4vh;
+  margin-left: 0;
 }
 
 .footer-section__small-text {
   font-size: .67rem;
   line-height: 17px;
+}
+
+.footer-section__image {
+  width: 25vw;
+  margin: 2.5vw;
+  filter: grayscale(100%);
+}
+
+.footer-section__logo-container {
+  width: 38vw;
+}
+
+.footer-section__logo {
+  width: 23vw;
+  float: left;
+}
+
+.naver {
+  margin-top: 3.5vw;
+}
+
+.kakao {
+  scale: 0.7;
+  margin-top: 4.2vw;
 }
