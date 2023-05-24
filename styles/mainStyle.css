@@ -349,3 +349,51 @@ li {
 .feature-section__list > li {
   margin-bottom: 1.5vw;
 }
+
+.nav-bar-container {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar-container {
+    display: block;
+  }
+
+  header {
+    height: 12vh;
+  }
+
+  .nav-bar {
+    display: flex;
+    background: rgb(62, 62, 62);
+    width: 100vw;
+    justify-content: flex-end;
+    height: 4.5vh;
+    align-items: center;
+    padding-right: 13vw;
+  }
+
+  .nav-bar__english {
+    color: #fff;
+  }
+
+  .navigator-menu {
+    display: none;
+  }
+
+  .desktop-menu {
+    display: flex;
+  }
+
+  .nav-bar__icons {
+    margin-right: 1.5vw;
+  }
+
+  .desktop-menu-container {
+    display: flex;
+  }
+
+  .desktop-menu__icon {
+    width: 7.5vh;
+  }
+}
