@@ -5,6 +5,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Lato', sans-serif;;
 }
 
 body {
@@ -239,8 +240,8 @@ li {
 
 .footer-section__title {
   color: #d3d3d3;
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-size: 5.5vw;
+  font-weight: 600;
 }
 
 .footer-section__first-logos {
@@ -289,4 +290,63 @@ li {
 .kakao {
   scale: 0.7;
   margin-top: 4.2vw;
+}
+
+.feature-section {
+  display: flex;
+  justify-content: center;
+  margin: 6vw 0;
+}
+
+.feature-section__container {
+  width: 90vw;
+}
+
+.feature-section__game-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 7vw;
+}
+
+.feature-section__image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 5vw;
+}
+
+.feature-section__image {
+  width: 40vw;
+}
+
+.feature-section__title-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8vw;
+}
+
+.feature-section__title {
+  font-size: 5vw;
+}
+
+.feature-section__game-title {
+  font-size: 5vw;
+}
+
+.feature-section__release-date {
+  font-size: 3vw;
+}
+
+.feature-section__company {
+  font-size: 3vw;
+  color: #ec5242;
+}
+
+.feature-section__description {
+  font-size: 3.5vw;
+  margin-top: 6vw;
+}
+
+.feature-section__list > li {
+  margin-bottom: 1.5vw;
 }
