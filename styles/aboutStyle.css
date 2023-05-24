@@ -1,0 +1,60 @@
+.about-section {
+  display: flex;
+  justify-content: center;
+}
+
+.about-section__child {
+  width: 90vw;
+  margin: 5vw 0;
+}
+
+.about-section__images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vw;
+}
+
+.about-section__image {
+  width: 75vw;
+}
+
+.main-section__encourage {
+  margin-bottom: 10vw;
+  text-align: center;
+  font-size: 3.3vw;
+  line-height: 5vw;
+}
+
+.about-section__containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-section__logo {
+  margin: 15vw 0;
+  width: 35vw;
+}
+
+.about-section__main-title {
+  font-size: 4.8vw;
+  margin-bottom: 5vw;
+  color: #333;
+  text-align: center;
+}
+
+.about-section__description {
+  font-size: 3.5vw;
+  text-align: center;
+}
+
+.container-solo {
+  margin: 8vw 0 3vw 0;
+}
+
+.main-section__parragraph {
+  text-align: center;
+}
