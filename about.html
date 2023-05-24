@@ -6,12 +6,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About</title>
   <link rel="stylesheet" type="text/css" href="./styles/mainStyle.css">
+  <link rel="stylesheet" type="text/css" href="./styles/mobileNav.css">
   <link rel="stylesheet" type="text/css" href="./styles/aboutStyle.css">
   <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
   <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet">
 </head>
 <body>
-  <header><nav class="navigator-menu"><img class="navigator-menu__burger" src="./images/icons/burgerIcon.png"></nav></header>
+  <header>
+    <nav class="navigator-menu">
+      <img class="navigator-menu__burger" src="./images/icons/burgerIcon.png"> 
+    </nav>
+
+    <!-- nav menu -->
+
+    <div class="hidden-menu">
+      <ul class="hidden-menu__ul">
+        <li class="hidden-menu__li x-container"><img class="hidden-menu__x-element" src="./images/xIcon.png"></li>
+        <li class="hidden-menu__li"><a class="hidden-menu__option" href="./index.html">Home</a></li>
+        <li class="hidden-menu__li"><a class="hidden-menu__option">Buy</a></li>
+        <li class="hidden-menu__li"><a class="hidden-menu__option">Sell</a></li>
+        <li class="hidden-menu__li"><a class="hidden-menu__option">Sponsor</a></li>
+        <li class="hidden-menu__li"><a class="hidden-menu__option">News</a></li>
+        <li class="hidden-menu__li"><button class="hidden-menu__button">Campain</button></li>
+      </ul>
+    </div>
+  </header>
 
   <!-- Main section -->
 
@@ -92,6 +111,7 @@
       </div>
     </div>
   </footer>
-
+  <script src="./javaScript/main.js"></script>
+  <script src="./javaScript/featureSection.js"></script>
 </body>
 </html>
