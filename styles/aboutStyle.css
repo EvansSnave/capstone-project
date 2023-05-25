@@ -16,6 +16,28 @@
   margin-bottom: 5vw;
 }
 
+.about-section__orange {
+  width: 75vw;
+  height: 42.3vw;
+  background-color: rgba(236, 82, 66, .7);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-section__title-one {
+  color: #fff;
+  font-size: 7vw;
+  font-weight: 700;
+}
+
+.about-section__title-two {
+  color: #fff;
+  font-size: 4vw;
+}
+
 .about-section__image {
   width: 75vw;
 }
@@ -32,6 +54,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5vw;
 }
 
 .about-section__logo {
@@ -41,7 +64,7 @@
 
 .about-section__main-title {
   font-size: 4.8vw;
-  margin-bottom: 5vw;
+  margin-bottom: .5vw;
   color: #333;
   text-align: center;
 }
@@ -104,5 +127,18 @@
 
   .container-solo {
     margin: 0 1.5vw 0 0;
+  }
+
+  .about-section__orange {
+    width: 30vw;
+    height: 16.9vw;
+  }
+
+  .about-section__title-one {
+    font-size: 3vw;
+  }
+
+  .about-section__title-two {
+    font-size: 2vw;
   }
 }

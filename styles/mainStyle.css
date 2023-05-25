@@ -235,12 +235,30 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .footer-section__title {
   color: #d3d3d3;
-  font-size: 5.5vw;
+  font-size: 4.5vw;
   font-weight: 600;
+}
+
+.options-section__list-content:hover {
+  scale: 1.05;
+  border: solid #fff;
+  transition: 1s;
+}
+
+.orange-line {
+  width: 10vw;
+  background-color: #ec5242;
+  height: 0.05vw;
+  margin-top: 2vw;
+}
+
+.options-section__list-container {
+  margin-right: 2.5vw;
 }
 
 .footer-section__first-logos {
@@ -308,13 +326,20 @@ li {
 
 .feature-section__image-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-right: 5vw;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-right: 2vw;
+}
+
+.feature-section__chess {
+  width: 14vw;
+  position: absolute;
+  margin: 0 10vw 20vw 0;
 }
 
 .feature-section__image {
-  width: 40vw;
+  width: 20vw;
+  z-index: 2;
 }
 
 .hidden-text__container {
@@ -323,16 +348,18 @@ li {
 
 .feature-section__title-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
   margin-bottom: 8vw;
 }
 
 .feature-section__title {
-  font-size: 5vw;
+  font-size: 4vw;
 }
 
 .feature-section__game-title {
-  font-size: 5vw;
+  font-size: 3.5vw;
 }
 
 .feature-section__release-date {
@@ -345,8 +372,8 @@ li {
 }
 
 .feature-section__description {
-  font-size: 3.5vw;
-  margin-top: 6vw;
+  font-size: 3vw;
+  margin-top: 3vw;
 }
 
 .feature-section__list > li {
@@ -531,7 +558,7 @@ li {
   }
 
   .feature-section__title {
-    font-size: 2vw;
+    font-size: 1.6vw;
   }
 
   .feature-section__image {
@@ -577,7 +604,7 @@ li {
   }
 
   .footer-section__title {
-    font-size: 2vw;
+    font-size: 1.6vw;
   }
   
   .footer-section__logo-container{
@@ -604,5 +631,18 @@ li {
 
   .kakao {
     padding-top: 1vw;
+  }
+
+  .main-section__small-title {
+    font-size: 1.5vw;
+  }
+
+  .orange-line {
+    width: 3vw;
+    margin-top: 1vw;
+  }
+
+  .feature-section__chess {
+    margin: 0 1.5vw 9vw 0;
   }
 }
