@@ -51,7 +51,7 @@ const makeGames = ()=> {
   for (let i = 0; i <= games.length; i++){
     let currentGame = games[i];
     let gameHtml = `
-      <div class="feature-section__game-container">
+      <div class="feature-section__game-container cont${i}">
         <div class="feature-section__image-container">
         <img class="feature-section__image" src="${currentGame.image}">
         <img class="feature-section__chess" src="/images/chessBoard.png">
@@ -74,11 +74,38 @@ const makeGames = ()=> {
     `;
     gamesContainer.insertAdjacentHTML('afterbegin', gameHtml);
   }
+  
 }
 
 document.addEventListener('DOMContentLoaded', ()=>{
   makeGames();
 });
 
-// More mobile button
+// More button
+
+let moreButton = document.querySelector(".feature-section__button");
+
+moreButton.addEventListener("click", ()=>{
+  for (let i = 0; i < 3; i++){
+    let con = document.querySelector(`.cont${i}`);
+    let more = document.querySelector(".more");
+    let less = document.querySelector(".less");
+    let arrowDown = document.querySelector(".arrow");
+    let arrowUp =document.querySelector(".arrowUp");
+    if (con.style.display == "none"){
+      con.style.display = "flex";
+      more.style.display = "inline";
+      less.style.display = "none";
+      arrowDown.style.display = "none";
+      arrowUp.style.display = "inline";
+    }
+    else {
+      con.style.display = "none";
+      more.style.display = "none";
+      less.style.display = "inline"
+      arrowDown.style.display = "inline"
+      arrowUp.style.display = "none";
+    }
+  }
+});
 

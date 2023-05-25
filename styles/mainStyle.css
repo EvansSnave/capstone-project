@@ -126,6 +126,10 @@ li {
   background: url(/images/patternBackground.png);
 }
 
+.arrowUp {
+  width: 4.3vw;
+}
+
 .background {
   background: #272a31;
 }
@@ -181,6 +185,8 @@ li {
 .image {
   width: 10vw;
 }
+
+
 
 .last-list {
   margin-bottom: 0;
@@ -381,6 +387,25 @@ li {
 }
 
 .nav-bar-container {
+  display: none;
+}
+
+.feature-section__button {
+  width: 90vw;
+  background-color: #fff;
+  border: solid #ec5242 .1px;
+  padding: 3vw;
+  font-size: 2.3vw;
+}
+
+.arrow {
+  width: 3vw;
+  margin-left: 1vw;
+}
+
+.cont0,
+.cont1,
+.cont2 {
   display: none;
 }
 
@@ -645,4 +670,15 @@ li {
   .feature-section__chess {
     margin: 0 1.5vw 9vw 0;
   }
+
+  .cont0,
+  .cont1,
+  .cont2 {
+    display: flex;
+  }
+
+  .feature-section__button {
+    display: none;
+  }
 }
+
