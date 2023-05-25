@@ -26,7 +26,8 @@ header {
 }
 
 a {
-  text-decoration: none;
+  text-decoration: none !important;
+  color: inherit;
 }
 
 p {
@@ -76,9 +77,9 @@ li {
 }
 
 .main-section__main-title {
-  font-size: 2.2rem;
+  font-size: 7vw;
   font-family: 'Cocogoose', sans-serif;
-  line-height: 35px;
+  line-height: 7vw;
   font-weight: 500;
 }
 
@@ -94,7 +95,7 @@ li {
 }
 
 .main-section__parragraph {
-  font-size: .9rem;
+  font-size: 3vw;
   margin-bottom: 3vh;
 }
 
@@ -118,7 +119,6 @@ li {
 }
 
 .options-section {
-  
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -209,7 +209,6 @@ li {
 }
 
 .footer-section {
-  height: 35vh;
   width: 100%;
 }
 
@@ -318,6 +317,10 @@ li {
   width: 40vw;
 }
 
+.hidden-text__container {
+  display: none;
+}
+
 .feature-section__title-container {
   display: flex;
   justify-content: center;
@@ -382,7 +385,9 @@ li {
   }
 
   .desktop-menu {
-    display: flex;
+    width: 100vw;
+    height: 7vh;
+    padding-right: 13vw;
   }
 
   .nav-bar__icons {
@@ -391,9 +396,213 @@ li {
 
   .desktop-menu-container {
     display: flex;
+    height: 7.5vh;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .desktop-menu__icon-container {
+    float: left;
+    margin-top: .6vw;
+    margin-left: 13vw;
   }
 
   .desktop-menu__icon {
-    width: 7.5vh;
+    width: 5vh;
+  }
+
+  .desktop-menu__text-container {
+    margin: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .desktop-menu__li {
+    display: flex;
+    float: right;
+  }
+
+  .desktop-menu__button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .desktop-menu__button {
+    border-style: none;
+    width: 10vh;
+    padding: 1vw 0;
+    color: #fff;
+    background: #ec5242;
+  }
+
+  .main-section__parragraph {
+    font-size: 1.4vw;
+    margin-bottom: 3vh;
+  }
+
+  .main-section__container {
+    width: 74vw;
+  }
+
+  .main-section__container > div {
+    width: 74vw;
+  }
+
+  .options-section__container {
+    width: 74vw;
+  }
+
+  .options-section__button-container {
+    display: none;
+  }
+
+  .options-section__list {
+    display: grid;
+    grid-template-columns: repeat(5, 14.8vw);
+    column-gap: .3vw;
+  }
+
+  .options-section__list-content >* {
+    width: fit-content;
+  }
+
+  .options-section__list-content {
+    width: 14.8vw;
+    flex-direction: column;
+    height: 33vh;
+  }
+
+  .options-section__image {
+    margin: 3vh 0;
+  }
+
+  .image {
+    width: 5vw;
+  }
+
+  .options-section__description {
+    margin: 2vw .8vw 0 .8vw;
+  }
+
+  .white {
+    text-align: center;
+  }
+
+  .hidden-text__container {
+    display: flex;
+    width: 74vw;
+    justify-content: center;
+    margin-bottom: 10vh;
+  }
+
+  .hidden-text {
+    color: #fff;
+    font-size: 1.3vw;
+  }
+
+  .main-section__main-title {
+    font-size: 5vw;
+    line-height: 4vw;
+  }
+
+  .feature-section {
+    margin-top: 3vw;
+  }
+
+  .feature-section__container {
+    width: 74vw;
+  }
+
+  .feature-section__title-container {
+    margin-bottom: 5vw;
+  }
+
+  .feature-section__games-container {
+    display: grid;
+    grid-template-columns: repeat(2, 35vw);
+    column-gap: 2vw;
+  }
+
+  .feature-section__game-container {
+    width: 35vw;
+    margin-bottom: 2vw;
+  }
+
+  .feature-section__title {
+    font-size: 2vw;
+  }
+
+  .feature-section__image {
+    width: 13vw;
+  }
+
+  .feature-section__game-title {
+    font-size: 2vw;
+  }
+
+  .feature-section__release-date {
+    font-size: 1.7vw;
+  }
+
+  .feature-section__company {
+    font-size: 1.5vw;
+  }
+
+  .feature-section__description {
+      font-size: 1.4vw;
+      margin-top: 2vw;
+  }
+
+  .feature-section__release-date-container {
+    margin-bottom: .3vw !important;
+  }
+
+  .feature-section__game-title-container {
+    margin-bottom: .6vw !important;
+  }
+
+  .feature-section__image-container {
+    margin-right: 2.5vw;
+  }
+
+  .footer-section__list-container {
+    flex-direction: row;
+  }
+
+  .footer-section__image {
+    width: 10vw;
+    margin: 1.5vw;
+  }
+
+  .footer-section__title {
+    font-size: 2vw;
+  }
+  
+  .footer-section__logo-container{
+    width: 12vw;
+    margin: 2vw 0;
+  }
+
+  .footer-section__logo {
+    width: 7vw;
+    margin-left: 13vw;
+  }
+
+  .footer-section_text-container {
+    margin-left: 13vw;
+  }
+
+  .footer-section__second-part {
+    justify-content: flex-start;
+  }
+
+  .air {
+    padding-bottom: 2vw;
+  }
+
+  .kakao {
+    padding-top: 1vw;
   }
 }
