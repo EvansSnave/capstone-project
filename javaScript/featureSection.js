@@ -1,3 +1,6 @@
+
+// Dynamic Html feature section
+
 const games = [
   {
     image:'/images/gamesCovers/diabloIII.jpg',
@@ -49,7 +52,10 @@ const makeGames = ()=> {
     let currentGame = games[i];
     let gameHtml = `
       <div class="feature-section__game-container">
-        <div class="feature-section__image-container"><img class="feature-section__image" src="${currentGame.image}"></img></div>
+        <div class="feature-section__image-container">
+        <img class="feature-section__image" src="${currentGame.image}">
+        <img class="feature-section__chess" src="/images/chessBoard.png">
+        </div>
         <ul class="feature-section__list">
           <li class="feature-section__game-title-container">
             <p class="feature-section__game-title">${currentGame.title}</p>
@@ -73,3 +79,6 @@ const makeGames = ()=> {
 document.addEventListener('DOMContentLoaded', ()=>{
   makeGames();
 });
+
+// More mobile button
+

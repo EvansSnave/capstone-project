@@ -1,3 +1,6 @@
+
+// Navigator mobile menu
+
 let hamburger = document.querySelector(".navigator-menu__burger");
 let menu = document.querySelector(".hidden-menu");
 let closeButton = document.querySelector(".hidden-menu__x-element");
