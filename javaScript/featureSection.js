@@ -1,7 +1,7 @@
 // Dynamic Html feature section
 const games = [
   {
-    image: 'capstone-project\images\gamesCovers\diabloIII.jpg',
+    image: 'images\gamesCovers\diabloIII.jpg',
     title: 'Diablo III',
     releaseDate: 'May 15 2012',
     company: 'Blizzard Entertainment',
