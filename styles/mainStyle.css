@@ -431,6 +431,7 @@ li {
 
   .nav-bar__english {
     color: #fff;
+    margin-right: 1vw;
   }
 
   .navigator-menu {
@@ -644,11 +645,12 @@ li {
   }
 
   .footer-section_text-container {
-    margin-left: 13vw;
+    margin-left: 35vw;
   }
 
   .footer-section__second-part {
     justify-content: flex-start;
+    width: 100vw;
   }
 
   .air {
