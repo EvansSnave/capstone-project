@@ -19,7 +19,7 @@
 .about-section__orange {
   width: 75vw;
   height: 42.3vw;
-  background-color: rgba(236, 82, 66, .7);
+  background-color: rgba(236, 82, 66, 0.7);
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -64,7 +64,7 @@
 
 .about-section__main-title {
   font-size: 4.8vw;
-  margin-bottom: .5vw;
+  margin-bottom: 0.5vw;
   color: #333;
   text-align: center;
 }
@@ -81,7 +81,6 @@
 .main-section__parragraph {
   text-align: center;
 }
-
 
 @media screen and (min-width: 768px) {
   .main-section__small-title {
@@ -107,6 +106,7 @@
     font-size: 1.6vw;
     margin-bottom: 2vw;
   }
+
   .about-section__description {
     font-size: 1.3vw;
   }

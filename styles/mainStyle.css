@@ -5,14 +5,13 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: 'Lato', sans-serif;;
+  font-family: 'Lato', sans-serif;
 }
 
 body {
   width: 100vw;
   min-width: 375px;
   font-family: 'Lato', sans-serif;
-
 }
 
 section {
@@ -40,7 +39,6 @@ li {
 
 .navigator-menu {
   width: fit-content;
-  height: fit-content;
   margin-top: 3vh;
   margin-left: 5vw;
 }
@@ -61,7 +59,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: url(/images/backgroundMain.png) ;
+  background: url(/images/backgroundMain.png);
   background-position: bottom 92% right 46%;
 }
 
@@ -86,7 +84,7 @@ li {
 .main-section__small-title {
   font-weight: 500;
   font-size: 1.2rem;
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
 
 .main-section__text {
@@ -128,6 +126,7 @@ li {
 
 .arrowUp {
   width: 4.3vw;
+  display: none;
 }
 
 .background {
@@ -159,7 +158,7 @@ li {
 .options-section__list-content {
   display: flex;
   align-items: center;
-  background: rgba(255,255,255,.1);
+  background: rgba(255, 255, 255, 0.1);
   margin: 2.5vw 0;
 }
 
@@ -178,7 +177,7 @@ li {
 
 .options-section__description {
   width: 40vw;
-  font-size: .8rem;
+  font-size: 0.8rem;
   margin: 3vw;
 }
 
@@ -186,15 +185,13 @@ li {
   width: 10vw;
 }
 
-
-
 .last-list {
   margin-bottom: 0;
 }
 
 .options-section__p {
   font-weight: 560;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 .options-section__button-container {
@@ -287,7 +284,7 @@ li {
 }
 
 .footer-section__small-text {
-  font-size: .67rem;
+  font-size: 0.67rem;
   line-height: 17px;
 }
 
@@ -393,9 +390,13 @@ li {
 .feature-section__button {
   width: 90vw;
   background-color: #fff;
-  border: solid #ec5242 .1px;
+  border: solid #ec5242 0.1px;
   padding: 3vw;
   font-size: 2.3vw;
+}
+
+.more {
+  display: none;
 }
 
 .arrow {
@@ -455,7 +456,7 @@ li {
 
   .desktop-menu__icon-container {
     float: left;
-    margin-top: .6vw;
+    margin-top: 0.6vw;
     margin-left: 13vw;
   }
 
@@ -513,10 +514,10 @@ li {
   .options-section__list {
     display: grid;
     grid-template-columns: repeat(5, 14.8vw);
-    column-gap: .3vw;
+    column-gap: 0.3vw;
   }
 
-  .options-section__list-content >* {
+  .options-section__list-content > * {
     width: fit-content;
   }
 
@@ -535,7 +536,7 @@ li {
   }
 
   .options-section__description {
-    margin: 2vw .8vw 0 .8vw;
+    margin: 2vw 0.8vw 0 0.8vw;
   }
 
   .white {
@@ -603,16 +604,16 @@ li {
   }
 
   .feature-section__description {
-      font-size: 1.4vw;
-      margin-top: 2vw;
+    font-size: 1.4vw;
+    margin-top: 2vw;
   }
 
   .feature-section__release-date-container {
-    margin-bottom: .3vw !important;
+    margin-bottom: 0.3vw !important;
   }
 
   .feature-section__game-title-container {
-    margin-bottom: .6vw !important;
+    margin-bottom: 0.6vw !important;
   }
 
   .feature-section__image-container {
@@ -631,8 +632,8 @@ li {
   .footer-section__title {
     font-size: 1.6vw;
   }
-  
-  .footer-section__logo-container{
+
+  .footer-section__logo-container {
     width: 12vw;
     margin: 2vw 0;
   }
@@ -681,4 +682,3 @@ li {
     display: none;
   }
 }
-
