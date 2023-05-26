@@ -1,0 +1,37 @@
+.hidden-menu {
+  background: rgba(39, 42, 50, 0.95);
+  width: 85vw;
+  position: absolute;
+  height: 100vh;
+  display: none;
+}
+
+.hidden-menu__li {
+  border-top: 1px solid #3c3f46;
+  width: 75vw;
+  padding: 2vw 0;
+}
+
+.x-container {
+  height: 7vw;
+}
+
+.hidden-menu__x-element {
+  padding: 1.2vw 0;
+  width: 4vw;
+  float: right;
+}
+
+.hidden-menu__option {
+  color: #fff;
+  margin-left: 4vw;
+}
+
+.hidden-menu__button {
+  padding: 2vw 0;
+  margin-left: 4vw;
+  background: #ef513c;
+  color: #fff;
+  border-style: none;
+  width: 15vh;
+}

@@ -61,7 +61,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://evanssnave.github.io/capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -109,9 +109,9 @@ To run the project, execute the following command: open index.html as normal fil
 
 👤 **Author1**
 
-- GitHub: [username](link)
-- Twitter: []()
-- LinkedIn: []()
+- GitHub: [EvansSnave](https://github.com/EvansSnave)
+- Twitter: [Kroja13](https://twitter.com/Kroja13)
+- LinkedIn: [Kevin Cruz](https://www.linkedin.com/in/kevin-cruz-25159a201/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,7 +119,7 @@ To run the project, execute the following command: open index.html as normal fil
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[make the website more interative]**
+- **[make the website more interative]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -142,6 +142,7 @@ If you like this project, please give it a star ⭐️
 
 ## 📖 Acknowledgements <a name="acknowledgements"></a>
 I would like to appreciate <a href="https://www.microverse.org/">Microverse</a> for providing the resources and the platform for us to be a Professional full-stack developer.
+I also aknowledge to Cindy Shin who is the author of the original design https://www.behance.net/adagio07
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

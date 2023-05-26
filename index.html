@@ -6,12 +6,184 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="./styles/mainStyle.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" type="text/css" href="./styles/mobileNav.css">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-  <title>My capstone project</title>
+  <link href="https://fonts.cdnfonts.com/css/cocogoose" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/lato" rel="stylesheet">
+  <title>BuyGames!</title>
 </head>
 <body>
-  <h1>Hello</h1>
+  <header>
+    <nav class="navigator-menu">
+      <img class="navigator-menu__burger" src="./images/icons/burgerIcon.png" alt="burger button"> 
+    </nav>
+
+    <!-- nav menu -->
+
+    <nav class="hidden-menu">
+      <ul class="hidden-menu__ul">
+        <li class="hidden-menu__li x-container"><img class="hidden-menu__x-element" src="./images/xIcon.png" alt="close button"></li>
+        <li class="hidden-menu__li"><a class="hidden-menu__option" href="./about.html">About</a></li>
+        <li class="hidden-menu__li"><a class="hidden-menu__option">Buy</a></li>
+        <li class="hidden-menu__li"><a class="hidden-menu__option">Sell</a></li>
+        <li class="hidden-menu__li"><a class="hidden-menu__option">Sponsor</a></li>
+        <li class="hidden-menu__li"><a class="hidden-menu__option">News</a></li>
+        <li class="hidden-menu__li"><button type="submit" class="hidden-menu__button">Campain</button></li>
+      </ul>
+    </nav>
+
+    <!-- Second nav bar -->
+
+    <nav class="nav-bar-container">
+      <div class="nav-bar">
+        <div class="nav-bar__icons"><img src="./images/facebook.png" alt="facebook icon"></div>
+        <div class="nav-bar__icons"><img src="./images/twitter.png" alt="twitter icon"></div>
+        <div class="nav-bar__language"><p class="nav-bar__english">English</p></div>
+        <div class="nav-bar__language"><p class="nav-bar__english">My Page</p></div>
+        <div class="nav-bar__language"><p class="nav-bar__english">Log out</p></div>
+      </div>
+      <div class="desktop-menu-container">
+        <ul class="desktop-menu">
+          <li class="desktop-menu__icon-container"><img class="desktop-menu__icon" src="./images/icons/mainIcon.png" alt="menu icon"></li>
+          <div class="desktop-menu__li">
+            <li class="desktop-menu__text-container"><a class="desktop-menu__text" href="./about.html">About</a></li>
+            <li class="desktop-menu__text-container"><p class="desktop-menu__text">Buy</p></li>
+            <li class="desktop-menu__text-container"><p class="desktop-menu__text">Sell</p></li>
+            <li class="desktop-menu__text-container"><p class="desktop-menu__text">Sponsor</p></li>
+            <li class="desktop-menu__text-container"><p class="desktop-menu__text">News</p></li>
+            <li class="desktop-menu__button-container"><button type="submit" class="desktop-menu__button">Campain</button></li>
+          </div>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main section -->
+
+  <main class="main-section">
+    <div class="main-section__container">
+      <div class="main-section__titles">
+      <h1 class="main-section__small-title orange">"Searching for games?"</h1>
+      <h2 class="main-section__main-title orange">BUY GAMES! STORES ALL GAMES YOU ARE LOOKING FOR.</h2>
+      </div>
+      <div class="main-section__text">
+        <p class="main-section__parragraph">A collection of all and best rated games through 15 years worth of careful selection, reviews and prices from over
+          40 countries.
+        </p>
+      </div>
+      <div class="main-section__second-text">
+        <p class="main-section__number-sells">3002324 SELLS AND 234356 PURCHASES</p>
+        <p class="main-section__encourage">Buy and/or sell for the best market out there!</p>
+      </div>
+    </div>
+  </main>
+  
+  <!-- Options section -->
+
+  <div class="background">
+    <section class="options-section">
+      <div class="options-section__container">
+        <div class="options-section__title-container">
+          <p class="options-section__title">Actions</p>
+          <div class="orange-line"></div>
+        </div>
+        <div class="options-section__list-container">
+          <ul class="options-section__list">
+            <li>
+              <div class="options-section__list-content">
+                <div class="options-section__image"><img class="image" src="./images/firstIcon.png" alt="presentation icon"></div>
+                <div class="options-section__action"><p class="orange options-section__p">Buy</p></div>
+                <div class="options-section__description"><p class="white">Here you can buy any game and you will be able to find the best seller and the lowest price.</p></div>
+              </div>
+            </li>
+            <li>
+              <div class="options-section__list-content">
+                <div class="options-section__image"><img class="image" src="./images/secondIcon.png" alt="reunion icon"></div>
+                <div class="options-section__action"><p class="orange options-section__p">Sell</p></div>
+                <div class="options-section__description"><p class="white">Sell your games ang earn prestige as a seller then unlock awesome benefits.</p></div>
+              </div>
+            </li>
+            <li>
+              <div class="options-section__list-content">
+                <div class="options-section__image"><img class="image" src="./images/thirdIcon.png" alt="chat icon"></div>
+                <div class="options-section__action"><p class="orange options-section__p">Common questions</p></div>
+                <div class="options-section__description"><p class="white">Take time to read the common questions so that you fully understand how the process for selling and 
+                  buying works.</p></div>
+              </div>
+            </li>
+            <li>
+              <div class="options-section__list-content">
+                <div class="options-section__image"><img class="image" src="./images/fourthIcon.png" alt="statistics icon"></div>
+                <div class="options-section__action"><p class="orange options-section__p">Statistics</p></div>
+                <div class="options-section__description"><p class="white">Some people may be skeptikal about our numbers. You can check out our veracity here. You will find our 
+                  statistics on the average seller and buyer.</p></div>
+              </div>
+            </li>
+            <li>
+              <div class="options-section__list-content last-list">
+                <div class="options-section__image"><img class="image" src="./images/fifthIcon.png" alt="review icon"></div>
+                <div class="options-section__action"><p class="orange options-section__p">Reviews</p></div>
+                <div class="options-section__description"><p class="white">You can read others reviews to get an idea of the customer satisfaction.</p></div>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="options-section__button-container"><button type="submit" class="options-section__button">Join our community</button></div>
+      </div>
+      <div class="hidden-text__container"><a class="hidden-text">Join our comunity</a></div>
+    </section>
+  </div>
+
+  <!-- Features section -->
+
+  <section class="feature-section">
+    <div class="feature-section__container">
+      <div class="feature-section__title-container">
+        <h1 class="feature-section__title">Popular</h1>
+        <div class="orange-line"></div>
+      </div>
+      <div class="feature-section__games-container">
+      </div>
+      <div class="feature-section__button-container">
+        <button type="submit" class="feature-section__button">
+          <span class="more">LESS</span>
+          <span class="less">MORE</span>
+          <img class="arrow" src="./images/arrow.png" alt="arrow pointing upwards">
+          <img class="arrowUp" src="./images/arrowUp.png" alt="arrow pointing downwards">
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="footer-section">
+    <div class="footer-section__container">
+      <div class="footer-section__first-part">
+        <div class="footer-section__title-container">
+          <p class="footer-section__title">Partner</p>
+          <div class="orange-line"></div>
+        </div>
+        <div class="footer-section__list-container">
+          <ul class="footer-section__first-logos">
+            <li><img class="footer-section__image" src="./images/mozillaL.png" alt="mozilla logo"></li>
+            <li><img class="footer-section__image" src="./images/pngfind.com-flat-google-logo-png-4206174.png" alt="google logo"></li>
+            <li><img class="footer-section__image naver" src="./images/naverLogo.png" alt="naver logo"></li>
+          </ul>
+          <ul class="footer-section__last-logos">
+            <li><img class="footer-section__image kakao" src="./images/kakao.png" alt="kakao logo"></li>
+            <li><img class="footer-section__image air" src="./images/airBnbLogo.png" alt="air logo"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-section__second-part">
+        <div class="footer-section__logo-container"><img class="footer-section__logo" src="./images/icons/mainIcon.png" alt="best games icon"></div>
+        <div class="footer-section_text-container"><p class="footer-section__small-text">Buy games!<br>Some Rights Reserved</p></div>
+      </div>
+    </div>
+  </footer>
+
   <script src="./javaScript/main.js"></script>
+  <script src="./javaScript/featureSection.js"></script>
 </body>
 </html>

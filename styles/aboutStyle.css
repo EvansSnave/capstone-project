@@ -1,0 +1,152 @@
+.about-section {
+  display: flex;
+  justify-content: center;
+}
+
+.about-section__child {
+  width: 90vw;
+  margin: 5vw 0;
+}
+
+.about-section__images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vw;
+}
+
+.about-section__orange {
+  width: 75vw;
+  height: 42.3vw;
+  background-color: rgba(236, 82, 66, 0.7);
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-section__title-one {
+  color: #fff;
+  font-size: 7vw;
+  font-weight: 700;
+}
+
+.about-section__title-two {
+  color: #fff;
+  font-size: 4vw;
+}
+
+.about-section__image {
+  width: 75vw;
+}
+
+.main-section__encourage {
+  margin-bottom: 10vw;
+  text-align: center;
+  font-size: 3.3vw;
+  line-height: 5vw;
+}
+
+.about-section__containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vw;
+}
+
+.about-section__logo {
+  margin: 15vw 0;
+  width: 35vw;
+}
+
+.about-section__main-title {
+  font-size: 4.8vw;
+  margin-bottom: 0.5vw;
+  color: #333;
+  text-align: center;
+}
+
+.about-section__description {
+  font-size: 3.5vw;
+  text-align: center;
+}
+
+.container-solo {
+  margin: 8vw 0 3vw 0;
+}
+
+.main-section__parragraph {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .main-section__small-title {
+    display: none;
+  }
+
+  .main-section__main-title {
+    text-align: center;
+    margin-bottom: 2vw;
+  }
+
+  .main-section__parragraph {
+    font-size: 1.3vw;
+  }
+
+  .footer-section__second-part {
+    background-color: #333;
+  }
+
+  .footer-section__small-text {
+    color: #fff;
+  }
+
+  .main-section__encourage {
+    font-size: 1.2vw;
+    line-height: 2.2vw;
+    margin-bottom: 5vw;
+  }
+
+  .about-section__main-title {
+    font-size: 1.6vw;
+    margin-bottom: 2vw;
+  }
+
+  .about-section__description {
+    font-size: 1.3vw;
+  }
+
+  .about-section__logo {
+    margin: 2vw 0 5vw 0;
+    width: 10vw;
+  }
+
+  .about-section__images {
+    flex-direction: row;
+    margin-top: 5vw;
+  }
+
+  .about-section__image {
+    width: 30vw;
+  }
+
+  .container-solo {
+    margin: 0 1.5vw 0 0;
+  }
+
+  .about-section__orange {
+    width: 30vw;
+    height: 16.9vw;
+  }
+
+  .about-section__title-one {
+    font-size: 3vw;
+  }
+
+  .about-section__title-two {
+    font-size: 2vw;
+  }
+}

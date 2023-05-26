@@ -1,9 +1,686 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/lato");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
 
 body {
   width: 100vw;
+  min-width: 375px;
+  font-family: 'Lato', sans-serif;
 }
 
-h1 {
-  font-family: 'Poppins', sans-serif;
+section {
+  width: 100%;
+}
+
+header {
+  height: 9vh;
+  min-width: 100vw;
+  display: flex;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit;
+}
+
+p {
+  color: #272a31;
+}
+
+li {
+  list-style: none;
+}
+
+.navigator-menu {
+  width: fit-content;
+  margin-top: 3vh;
+  margin-left: 5vw;
+}
+
+.navigator-menu__burger {
+  width: 5vw;
+  max-width: 50px;
+  min-width: 30px;
+}
+
+.orange {
+  color: #ec5242;
+}
+
+.main-section {
+  margin-top: 7vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(/images/backgroundMain.png);
+  background-position: bottom 92% right 46%;
+}
+
+.main-section__container {
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-section__titles {
+  align-self: flex-start;
+}
+
+.main-section__main-title {
+  font-size: 7vw;
+  font-family: 'Cocogoose', sans-serif;
+  line-height: 7vw;
+  font-weight: 500;
+}
+
+.main-section__small-title {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.main-section__text {
+  margin-top: 4vh;
+  width: 86vw;
+}
+
+.main-section__parragraph {
+  font-size: 3vw;
+  margin-bottom: 3vh;
+}
+
+.main-section__second-text {
+  width: 90vw;
+}
+
+.main-section__number-sells {
+  font-size: 1.4rem;
+  font-weight: 580;
+  font-family: 'Cocogoose', sans-serif;
+  color: rgb(71, 71, 73);
+  line-height: 25px;
+  margin-bottom: 0.7vh;
+}
+
+.main-section__encourage {
+  font-size: 1rem;
+  margin-bottom: 9vh;
+  line-height: 20px;
+}
+
+.options-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(/images/patternBackground.png);
+}
+
+.arrowUp {
+  width: 4.3vw;
+  display: none;
+}
+
+.background {
+  background: #272a31;
+}
+
+.options-section__container {
+  width: 90vw;
+}
+
+.options-section__title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 3vh 0;
+}
+
+.options-section__title {
+  color: #d3d3d3;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.white {
+  color: #d3d3d3;
+}
+
+.options-section__list-content {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 2.5vw 0;
+}
+
+.options-section__image {
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 3vw;
+  margin-right: 5vw;
+}
+
+.options-section__action {
+  width: 22vw;
+}
+
+.options-section__description {
+  width: 40vw;
+  font-size: 0.8rem;
+  margin: 3vw;
+}
+
+.image {
+  width: 10vw;
+}
+
+.last-list {
+  margin-bottom: 0;
+}
+
+.options-section__p {
+  font-weight: 560;
+  font-size: 0.9rem;
+}
+
+.options-section__button-container {
+  width: 90vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 15vh;
+}
+
+.options-section__button {
+  background: #ec5242;
+  color: #d3d3d3;
+  border-style: none;
+  height: 7vh;
+  width: 73vw;
+  font-size: 1rem;
+}
+
+.footer-section {
+  width: 100%;
+}
+
+.footer-section__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-section__first-part {
+  background: #333;
+}
+
+.footer-section__list-container {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+
+.footer-section__title-container {
+  margin: 4vh 0 3vh 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer-section__title {
+  color: #d3d3d3;
+  font-size: 4.5vw;
+  font-weight: 600;
+}
+
+.options-section__list-content:hover {
+  scale: 1.05;
+  border: solid #fff;
+  transition: 1s;
+}
+
+.orange-line {
+  width: 10vw;
+  background-color: #ec5242;
+  height: 0.05vw;
+  margin-top: 2vw;
+}
+
+.options-section__list-container {
+  margin-right: 2.5vw;
+}
+
+.footer-section__first-logos {
+  display: flex;
+}
+
+.footer-section__last-logos {
+  display: flex;
+}
+
+.footer-section__second-part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-section_text-container {
+  margin: 4vh;
+  margin-left: 0;
+}
+
+.footer-section__small-text {
+  font-size: 0.67rem;
+  line-height: 17px;
+}
+
+.footer-section__image {
+  width: 25vw;
+  margin: 2.5vw;
+  filter: grayscale(100%);
+}
+
+.footer-section__logo-container {
+  width: 38vw;
+}
+
+.footer-section__logo {
+  width: 13vw;
+}
+
+.naver {
+  margin-top: 3.5vw;
+}
+
+.kakao {
+  scale: 0.7;
+  margin-top: 4.2vw;
+}
+
+.feature-section {
+  display: flex;
+  justify-content: center;
+  margin: 6vw 0;
+}
+
+.feature-section__container {
+  width: 90vw;
+}
+
+.feature-section__game-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 7vw;
+}
+
+.feature-section__image-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-right: 2vw;
+}
+
+.feature-section__chess {
+  width: 14vw;
+  position: absolute;
+  margin: 0 10vw 20vw 0;
+}
+
+.feature-section__image {
+  width: 20vw;
+  z-index: 2;
+}
+
+.hidden-text__container {
+  display: none;
+}
+
+.feature-section__title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 8vw;
+}
+
+.feature-section__title {
+  font-size: 4vw;
+}
+
+.feature-section__game-title {
+  font-size: 3.5vw;
+}
+
+.feature-section__release-date {
+  font-size: 3vw;
+}
+
+.feature-section__company {
+  font-size: 3vw;
+  color: #ec5242;
+}
+
+.feature-section__description {
+  font-size: 3vw;
+  margin-top: 3vw;
+}
+
+.feature-section__list > li {
+  margin-bottom: 1.5vw;
+}
+
+.nav-bar-container {
+  display: none;
+}
+
+.feature-section__button {
+  width: 90vw;
+  background-color: #fff;
+  border: solid #ec5242 0.1px;
+  padding: 3vw;
+  font-size: 2.3vw;
+}
+
+.more {
+  display: none;
+}
+
+.arrow {
+  width: 3vw;
+  margin-left: 1vw;
+}
+
+.cont0,
+.cont1,
+.cont2 {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-bar-container {
+    display: block;
+  }
+
+  header {
+    height: 12vh;
+  }
+
+  .nav-bar {
+    display: flex;
+    background: rgb(62, 62, 62);
+    width: 100vw;
+    justify-content: flex-end;
+    height: 4.5vh;
+    align-items: center;
+    padding-right: 13vw;
+  }
+
+  .nav-bar__english {
+    color: #fff;
+    margin-right: 1vw;
+  }
+
+  .navigator-menu {
+    display: none;
+  }
+
+  .desktop-menu {
+    width: 100vw;
+    height: 7vh;
+    padding-right: 13vw;
+  }
+
+  .nav-bar__icons {
+    margin-right: 1.5vw;
+  }
+
+  .desktop-menu-container {
+    display: flex;
+    height: 7.5vh;
+    align-items: center;
+    width: 100vw;
+  }
+
+  .desktop-menu__icon-container {
+    float: left;
+    margin-top: 0.6vw;
+    margin-left: 13vw;
+  }
+
+  .desktop-menu__icon {
+    width: 5vh;
+  }
+
+  .desktop-menu__text-container {
+    margin: 1.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .desktop-menu__li {
+    display: flex;
+    float: right;
+  }
+
+  .desktop-menu__button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .desktop-menu__button {
+    border-style: none;
+    width: 10vh;
+    padding: 1vw 0;
+    color: #fff;
+    background: #ec5242;
+  }
+
+  .main-section__parragraph {
+    font-size: 1.4vw;
+    margin-bottom: 3vh;
+  }
+
+  .main-section__container {
+    width: 74vw;
+  }
+
+  .main-section__container > div {
+    width: 74vw;
+  }
+
+  .options-section__container {
+    width: 74vw;
+  }
+
+  .options-section__button-container {
+    display: none;
+  }
+
+  .options-section__list {
+    display: grid;
+    grid-template-columns: repeat(5, 14.8vw);
+    column-gap: 0.3vw;
+  }
+
+  .options-section__list-content > * {
+    width: fit-content;
+  }
+
+  .options-section__list-content {
+    width: 14.8vw;
+    flex-direction: column;
+    height: 33vh;
+  }
+
+  .options-section__image {
+    margin: 3vh 0;
+  }
+
+  .image {
+    width: 5vw;
+  }
+
+  .options-section__description {
+    margin: 2vw 0.8vw 0 0.8vw;
+  }
+
+  .white {
+    text-align: center;
+  }
+
+  .hidden-text__container {
+    display: flex;
+    width: 74vw;
+    justify-content: center;
+    margin-bottom: 10vh;
+  }
+
+  .hidden-text {
+    color: #fff;
+    font-size: 1.3vw;
+  }
+
+  .main-section__main-title {
+    font-size: 5vw;
+    line-height: 4vw;
+  }
+
+  .feature-section {
+    margin-top: 3vw;
+  }
+
+  .feature-section__container {
+    width: 74vw;
+  }
+
+  .feature-section__title-container {
+    margin-bottom: 5vw;
+  }
+
+  .feature-section__games-container {
+    display: grid;
+    grid-template-columns: repeat(2, 35vw);
+    column-gap: 2vw;
+  }
+
+  .feature-section__game-container {
+    width: 35vw;
+    margin-bottom: 2vw;
+  }
+
+  .feature-section__title {
+    font-size: 1.6vw;
+  }
+
+  .feature-section__image {
+    width: 13vw;
+  }
+
+  .feature-section__game-title {
+    font-size: 2vw;
+  }
+
+  .feature-section__release-date {
+    font-size: 1.7vw;
+  }
+
+  .feature-section__company {
+    font-size: 1.5vw;
+  }
+
+  .feature-section__description {
+    font-size: 1.4vw;
+    margin-top: 2vw;
+  }
+
+  .feature-section__release-date-container {
+    margin-bottom: 0.3vw !important;
+  }
+
+  .feature-section__game-title-container {
+    margin-bottom: 0.6vw !important;
+  }
+
+  .feature-section__image-container {
+    margin-right: 2.5vw;
+  }
+
+  .footer-section__list-container {
+    flex-direction: row;
+  }
+
+  .footer-section__image {
+    width: 10vw;
+    margin: 1.5vw;
+  }
+
+  .footer-section__title {
+    font-size: 1.6vw;
+  }
+
+  .footer-section__logo-container {
+    width: 12vw;
+    margin: 2vw 0;
+  }
+
+  .footer-section__logo {
+    width: 7vw;
+    margin-left: 35vw;
+  }
+
+  .footer-section_text-container {
+    margin-left: 35vw;
+  }
+
+  .footer-section__second-part {
+    justify-content: flex-start;
+    width: 100vw;
+  }
+
+  .air {
+    padding-bottom: 2vw;
+  }
+
+  .kakao {
+    padding-top: 1vw;
+  }
+
+  .main-section__small-title {
+    font-size: 1.5vw;
+  }
+
+  .orange-line {
+    width: 3vw;
+    margin-top: 1vw;
+  }
+
+  .feature-section__chess {
+    margin: 0 1.5vw 9vw 0;
+  }
+
+  .cont0,
+  .cont1,
+  .cont2 {
+    display: flex;
+  }
+
+  .feature-section__button {
+    display: none;
+  }
 }
