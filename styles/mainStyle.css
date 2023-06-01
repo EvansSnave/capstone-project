@@ -328,8 +328,6 @@ li {
   margin-top: 1vw;
 }
 
-.feature-section__game-container.cont3 {}
-
 .feature-section__image-container {
   display: flex;
   align-items: flex-end;
@@ -365,7 +363,7 @@ li {
 }
 
 .feature-section__list {
- height: 10vw;
+  height: 10vw;
 }
 
 .feature-section__game-title {
