@@ -325,7 +325,10 @@ li {
   display: flex;
   flex-direction: row;
   margin-bottom: 7vw;
+  margin-top: 1vw;
 }
+
+.feature-section__game-container.cont3 {}
 
 .feature-section__image-container {
   display: flex;
@@ -359,6 +362,10 @@ li {
 
 .feature-section__title {
   font-size: 4vw;
+}
+
+.feature-section__list {
+ height: 10vw;
 }
 
 .feature-section__game-title {
@@ -662,7 +669,7 @@ li {
   }
 
   .main-section__small-title {
-    font-size: 1.5vw;
+    font-size: 1.7vw;
   }
 
   .orange-line {
