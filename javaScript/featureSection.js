@@ -51,7 +51,7 @@ const makeGames = () => {
     const gameHtml = `
       <div class='feature-section__game-container cont${i}'>
         <div class='feature-section__image-container'>
-        <img class='feature-section__image' src='${currentGame.image}' alt='game image'>
+        <img class='feature-section__image' src='${currentGame.image}' alt='${currentGame.title} image'>
         <img class='feature-section__chess' src='images/chessBoard.png' alt='background image'>
         </div>
         <ul class='feature-section__list'>
